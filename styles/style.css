@@ -99,7 +99,7 @@ main {
 }
 
 .scaled {
-    display: block;
+    display: flex;
     text-align: center;   
 }
 
@@ -111,7 +111,6 @@ main {
     justify-content: center;
 }
 
-
 .center-image {
     display: flex;
     justify-content: center;        
@@ -122,8 +121,6 @@ main {
 .center-image:hover {
     transform: scale(0.9);
 }
-
-
 
 footer {
     margin-top: 35%;
